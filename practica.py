@@ -54,6 +54,6 @@ cliente3=Cliente('Marcos','Caceres',3000)
 
 clientes=[cliente1,cliente2,cliente3]
 for cliente in clientes:
-    print(cliente.nombre)
+    print(cliente.nombre,cliente.ciudad,cliente.facturacion)
 
 
